@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+background-color:#F0F2F5;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+hr {
+    align-items: center;
+    /* border-bottom: 1px solid #dadde1; */
+    /* display: flex; */
+    margin: 20px 16px;
+    /* text-align: center; */
+}
+
+.sent {
+    font-size: 28px;
+     font-family:Helvetica, Arial, sans-serif , ;
+     font-weight: normal;
+     line-height: 32px;
+     width: 500px;
+     margin-left: 35px;
+}
+.container {
+    position: absolute;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    width: 350px;
+top: 20%;
+left: 60%;
+border-radius: 4px;
+}
+.fb-logo {
+    max-width: 40%;
+    height: auto;
+   margin-top: 160px;
+}
+
+.container input {
+    height: 18px;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #e2e8f0;
+    
+}
+.btn-1 {
+ background: #2C83f2;
+ height: 48px;
+ width: 320px;
+ border: 1px solid #e2e8f0;
+ color: white;
+ margin: 18px;
+ padding: 10px;
+ border: 1px;
+ border-radius: 4px;
+
+ border-color: gray  display: flex;
+ justify-content: center;
+ 
+ font-size: 14px;
+ font-weight:700;
+}
+.for {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    text-decoration: none;
+}
+.btn-2 {
+    width: 37%;
+    margin: 32%;
+    padding: 5px;
+    
+   font-size: 12px;
+   font-weight: 600;
+    align-items: center;
+    background-color: #00b300;
+    display: flex;
+    justify-content: center;
+color: white;
+margin-top: -1px;
+border-radius: 4px;
+
+
+}
+
+@media (max-width: 480px) {
+    .sent {
+        font-size: 20px; /* Adjust font size for mobile */
+        line-height: 24px; /* Adjust line height for mobile */
+    }
+
+    .container {
+        height: 500px; /* Adjust height for mobile */
+    }
+
+    .fb-logo {
+        max-width: 60%; /* Adjust max-width for mobile */
+        margin-top: 80px; /* Adjust margin for mobile */
+    }
+
+    .container input {
+        /* Further adjustments for mobile inputs */
+        margin: 8px 0;
+        width: 100%;
+    }
+
+    .btn-1 {
+        /* Further adjustments for mobile buttons */
+        width: 100%;
+        margin: 8px 0;
+    }
+}
